@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+    <link rel="stylesheet" href="./style.css">
+    <title>JamesOdell'sPortfolio</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1>James Odell</h1>
+        <div>
+            <ul>
+                <li>
+                    <a href="#Bio" class="nav-link">Bio</a>
+                </li>
+                <li>
+                    <a href="#Projects" class="nav-link">Projects</a>
+                </li>
+                <li>
+                    <a href="#Resume" class="nav-link">Resume</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <section class="section"></section>
+    <section class="row align-items-start">
+        <div class="col">
+            <img src="./images/ollieAndMe.JPG" alt="My son and I sitting on a rock">
+        </div>
+        <div class="col">
+            <img src="./images/mountainView.JPG" alt="Mountain view in the fall">
+        </div>
+        <div class="col">
+            <img src="./images/wedding.JPG" alt="My wedding with my son and wife">
+        </div>
+    </section>
+    <section class="welcome">
+        <p class="p">
+            Welcome to my portfolio! Please feel free to look around and inspect my work.
+        </p>
+    </section>
+    <article>
+        <div id="Bio" class="Bio">
+            <h2>Bio</h2>
+            <p class="p2">My name is James Odell. I am a 33 year old male who was born and raised in Denver, Colorado. I
+                have had the opportunity of working in multiple industries throughout my professional career. My first
+                career was in the culinary arts as a chef. My second career has been in the Oil and Gas industry. I am
+                naturally a creative person. So, working in Oil and Gas has not been fulfilling for my creative side. I
+                would like to get back into an industry that can fulfill that creative desire of mine. I am currently
+                attending Denver Universities, Coding Bootcamp. Some of the project you will see on this page are from
+                my time in that Bootcamp program. I hope you enjoy my work and please feel free to contact me down
+                below.</p>
+        </div>
+        <aside>
+            <div id="Resume" class="Resume">
+                <h2>Profile's and Resume</h2>
+                <p>Below is my GitHub profile.</p>
+                <a href="https://github.com/JamesO1231"
+                    class="resume-link" target="_blank">GitHub</a>
+                <p>Below is my LinkedIn profile.</p>
+                <a href="https://www.linkedin.com/in/james-odell-729793214/"
+                    class="resume-link" target="_blank">LinkedIn</a>
+                <p>Here is a link to my profesonal resume.</p>
+                <a href="https://drive.google.com/file/d/1dceYT9_Zj12Zl3fihfD1GpDcQ2J56sIL/view?usp=sharing"
+                    class="resume-link" target="_blank">Resume</a>
+            </div>
+            <div>
+                <h2>My Contact Information</h2>
+                <p>My Email - jpodell21@gmail.com</p>
+            </div>
+        </aside>
+        <div id="Projects">
+            <h2>Projects</h2>
+            <p>Below are some of the projects I have worked on.</p>
+            <ul class="Projects">
+                    <a href="https://bonilhav.github.io/Choose_Your_Pokemon/index.html"
+                         target="_blank" class="project1Container"> <img src="./images/choseYourPokemon.PNG"
+                            alt="My first app" class="card1"></a>          
+                <div class="flexProjects">
+                    <a href="https://jameso1231.github.io/TheBestQuizEver/index.html" target="_blank"> <img
+                            src="./images/quizGame.PNG" alt="Quiz game" class="card2"></a>
+                    <a href="https://jameso1231.github.io/weatherApp/index.html"  target="_blank"> <img
+                            src="./images/weatherApp.PNG" alt="Weather App" class="card3"></a>
+                </div>
+            </ul>
+        </div>
+    </article>
+    <footer>
+        <form>
+            <h2>Contact me!</h2>
+            <input type='text' placeholder='First Name' id='firstName' class='contact'>
+            <input type='text' placeholder='Last Names' id='lastName' class='contact'>
+            <input type='text' placeholder='E-mail address' id='email' class='contact'>
+            <button id='inputButton' type='submit'>Submit</button>
+        </form>
+        </div>
+        <h1 class='thankYou'>Thank you for chacking out my portfolio. <a href="./style.css"></a> I look forward to hearing
+            from you soon.</h1>
+    </footer>
+</body>
+
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+<script src='./script.js'></script>
+</html>
