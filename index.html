@@ -76,17 +76,50 @@
         <div id="Projects">
             <h2>Projects</h2>
             <p>Below are some of the projects I have worked on.</p>
-            <ul class="Projects">
-                    <a href="https://bonilhav.github.io/Choose_Your_Pokemon/index.html"
-                         target="_blank" class="project1Container"> <img src="./images/choseYourPokemon.PNG"
-                            alt="My first app" class="card1"></a>          
-                <div class="flexProjects">
-                    <a href="https://jameso1231.github.io/TheBestQuizEver/index.html" target="_blank"> <img
-                            src="./images/quizGame.PNG" alt="Quiz game" class="card2"></a>
-                    <a href="https://jameso1231.github.io/weatherApp/index.html"  target="_blank"> <img
-                            src="./images/weatherApp.PNG" alt="Weather App" class="card3"></a>
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
-            </ul>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <a href="https://bonilhav.github.io/Choose_Your_Pokemon/index.html"
+                    target="_blank" class=""><img src="./images/choseYourPokemon.PNG"
+                      alt="My first app" id="image" class="d-block w-100"></a>
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class="text1">Choose Your Pokemon</h5>
+                      <p><a href="https://github.com/bonilhav/Choose_Your_Pokemon" target="_blank" class="link1">gitHub Repo</a></p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="https://jameso1231.github.io/TheBestQuizEver/index.html"
+                      target="_blank" class=""><img src="./images/quizGame.PNG"
+                        alt="My first app" id="image" class="d-block w-100"></a>
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class="text2">Coding Quiz Game</h5>
+                      <p><a href="https://github.com/JamesO1231/TheBestQuizEver" target="_blank" class="link2">gitHub Repo</a></p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="https://jameso1231.github.io/weatherApp/index.html"
+                        target="_blank" class=""><img src="./images/weatherApp.PNG"
+                          alt="My first app" id="image" class="d-block w-100"></a>
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class="text3">Weather App</h5>
+                      <p><a href="https://github.com/JamesO1231/weatherApp" target="_blank" class="link3">gitHub Repo</a></p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>   
         </div>
     </article>
     <footer>

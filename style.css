@@ -105,36 +105,38 @@ p {
     color: black;
 }
 
-.Projects {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+#carouselExampleCaptions {
+    max-width: 800px;
     max-height: 400px;
-    max-width: 600px;
 }
 
-
-.flexProjects {
-    display: flex;
-    height: 400px;
+.link1 {
+    color:black;
+    text-decoration: bold;
 }
 
-.project1Container {
-    display: flex;
-    justify-content: center;
-    height: 400px;
+.text1 {
+    color: yellow;
 }
 
-.card1 {
-    padding: 5px;
-    width: 600px;
-    height: 200px;
+.link2 {
+    color:yellow;
 }
 
-.card2, .card3 {
-    padding: 5px;
-    width: 285px;
-    height: 150px;
+.text2 {
+    color: yellow;
+}
+
+.link3 {
+    color:orange
+}
+
+.text3 {
+    color:orange
+}
+
+#image {
+    max-height: 400px;
 }
 
 aside {
