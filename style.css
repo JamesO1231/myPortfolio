@@ -106,13 +106,14 @@ p {
 }
 
 #carouselExampleCaptions {
+    padding-left: 20px;
     max-width: 800px;
     max-height: 400px;
 }
 
 .link1 {
+    text-decoration: none;
     color:black;
-    text-decoration: bold;
 }
 
 .text1 {
@@ -120,6 +121,7 @@ p {
 }
 
 .link2 {
+    text-decoration: none;
     color:yellow;
 }
 
@@ -128,6 +130,7 @@ p {
 }
 
 .link3 {
+    text-decoration: none;
     color:orange
 }
 
