@@ -67,6 +67,8 @@ h2 {
 } 
 
 .col {
+    object-fit: fill;
+    display: inline-block;
     padding: 10px;
 }
 
@@ -117,10 +119,10 @@ p {
 }
 
 .text1 {
-    color: yellow;
+    color: black;
 }
 
-.link2 {
+/* .link2 {
     text-decoration: none;
     color:yellow;
 }
@@ -136,7 +138,7 @@ p {
 
 .text3 {
     color:orange
-}
+} */
 
 #image {
     max-height: 400px;
